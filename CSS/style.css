@@ -50,10 +50,6 @@ h5 {
   flex-direction: column;
 }
 
-.header img, .footer img {
-  max-width: 3072px;
-}
-
 
 /*  ----------------- MAIN CONTENT ----------------- */
 .meetmello {
