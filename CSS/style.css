@@ -1,0 +1,38 @@
+/*  ----------------- GLOBAL ----------------- */
+body {
+    background-color:#fbfbfb;
+    color: #1E0C45;
+    font-size: 24px;
+    font-family: 'SF Pro', 'Arial', sans-serif;
+    font-weight: lighter;
+}
+
+
+
+
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 85%;
+  }
+  
+  .hello img {
+    max-width: 90%;
+    max-height: 500px;
+  }
+  
+  .work {
+    text-align: left;
+    opacity: 0;
+  }
+  
+  .work img {
+    max-width: 800px;
+    max-height: 500px;
+    object-fit: contain;
+    background-color: #02EB96;
+  }
