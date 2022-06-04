@@ -1,38 +1,86 @@
 /*  ----------------- GLOBAL ----------------- */
 body {
     background-color:#fbfbfb;
-    color: #1E0C45;
-    font-size: 24px;
-    font-family: 'SF Pro', 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    color: #7C9482;
+    font-family: 'Lato';
     font-weight: lighter;
+    display: inline-block;
+    line-height: 20%;
+  }
+  
+h2 {
+    font-size: 150px;
+    color: #7C9482;
+    font-family: 'Lavishly Yours';
+    display: inline-block;
+    line-height: 20%;
+  }
+
+h3 {
+    font-size: 16px;
+    color: #989898;
+    font-family: 'Mulish';
+    font-weight: lighter;
+    line-height: 100%;
+  }
+
+h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+h5 {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Mulish';
+  font-weight: lighter;
 }
 
 
+/*  ----------------- HEADER & FOOTER ----------------- */
+
+.header, .footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.header img, .footer img {
+  max-width: 1440px;
+}
 
 
-
-.hello {
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
+/*  ----------------- MAIN CONTENT ----------------- */
+.meetmello {
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
     line-height: 85%;
   }
   
-  .hello img {
-    max-width: 90%;
-    max-height: 500px;
+.meetmello img {
+    max-height: 300px;
   }
   
-  .work {
-    text-align: left;
-    opacity: 0;
+.appcontent {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #7C9482;
   }
   
-  .work img {
-    max-width: 800px;
-    max-height: 500px;
-    object-fit: contain;
-    background-color: #02EB96;
+.appcontent img {
+  max-width: 300px;
+  max-height: 250px;
   }
