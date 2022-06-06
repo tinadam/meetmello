@@ -9,15 +9,17 @@ h1 {
     font-family: 'Lato';
     font-weight: lighter;
     display: inline-block;
-    line-height: 20%;
+    line-height: 80%;
   }
   
-h2 {
+  h2 {
     font-size: 150px;
     color: #7C9482;
     font-family: 'Lavishly Yours';
+    font-weight: lighter;
     display: inline-block;
-    line-height: 20%;
+    line-height: 80%;
+    margin: 0;
   }
 
 h3 {
@@ -25,7 +27,6 @@ h3 {
     color: #989898;
     font-family: 'Mulish';
     font-weight: lighter;
-    line-height: 100%;
   }
 
 h4 {
@@ -57,7 +58,6 @@ h5 {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    line-height: 85%;
   }
   
 .meetmello img {
