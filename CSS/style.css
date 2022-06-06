@@ -80,3 +80,13 @@ h5 {
   max-width: 300px;
   max-height: 250px;
   }
+
+.button_one:hover {
+  background-color: #AFCAD4;
+  color: #FFFFFF;
+  }
+
+.button_two:hover {
+  background-color: #7C9482;
+  color: #FFFFFF;
+  }
