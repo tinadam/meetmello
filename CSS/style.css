@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 72px;
     color: #7C9482;
     font-family: 'Lato';
     font-weight: lighter;
@@ -13,7 +13,7 @@ h1 {
   }
   
   h2 {
-    font-size: 150px;
+    font-size: 164px;
     color: #7C9482;
     font-family: 'Lavishly Yours';
     font-weight: lighter;
@@ -23,21 +23,21 @@ h1 {
   }
 
 h3 {
-    font-size: 16px;
+    font-size: 20px;
     color: #989898;
     font-family: 'Mulish';
     font-weight: lighter;
   }
 
 h4 {
-    font-size: 24px;
+    font-size: 32px;
     color: #FFFFFF;
     font-family: 'Lato';
     font-weight: bold;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 20px;
   color: #FFFFFF;
   font-family: 'Mulish';
   font-weight: lighter;
